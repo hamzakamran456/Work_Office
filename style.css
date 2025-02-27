@@ -88,3 +88,43 @@
   top: -24px;
   left: -44px;
 }
+.card_item {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 16px;
+}
+.form__main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+.form-group input{
+    border: 1px solid #676767;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 12px 17px;
+    margin-top: 5px;
+    transition: .3s;
+    height: 50px;
+}
+.form-group .form-select {
+    border: 1px solid #676767;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 12px 17px;
+    margin-top: 5px;
+    transition: .3s;
+    height: 50px;
+}
+.iti--separate-dial-code .iti__selected-flag {
+  background-color: transparent;
+}
