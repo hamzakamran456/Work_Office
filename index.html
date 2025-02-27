@@ -4,13 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Take A Class For Me - Best Online Class & Exam Help in USA</title>
+    <link rel="shortcut icon" href="/img/favicon-icon.png">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <section class="hero--sec">
       <div class="container">
         <div class="hero__wrap">
-          <div class="hero__content">
+          <div class="hero__left">
             <h1>
               Take A Class For Me: The Top Rated Service For Online Classes In
               <span class="underline">USA</span>
@@ -73,10 +79,23 @@
                 </div>
               </form>
             </div>
+            <div class="obj obj-1"></div>
           </div>
-          <div class="hero__img"></div>
+          <div class="hero__right">
+            <div class="hero__img">
+              <img src="img/hero-sec-girl-1.webp" alt="">
+            </div>
+          </div>
         </div>
       </div>
     </section>
+    <script>
+      const phoneInputField = document.querySelector("#phone");
+      const phoneInput = window.intlTelInput(phoneInputField, {
+        initialCountry: "us",
+        preferredCountries: ["us", "gb", "in", "pk"],
+        separateDialCode: true,
+      });
+    </script>
   </body>
 </html>

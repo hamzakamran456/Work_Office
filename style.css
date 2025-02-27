@@ -1,13 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans", serif;
 }
-.hero--sec{
+
+.hero--sec {
     padding: 50px 0;
     position: relative;
     overflow: hidden;
+    background-color: #F8F5F2;
+}
+
+.container {
+    max-width: 1180px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.hero__left {
+    position: relative;
+    z-index: 1;
+}
+
+.hero__left h1 {
+    font-family: "Open Sans";
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #161c2d;
+    margin-bottom: 12px;
+}
+.hero__left p{
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.hero--sec .obj {
+    position: absolute;
+}
+
+.hero--sec .obj.obj-1 {
+    width: 76px;
+    height: 71px;
+    background-image: url("img/obj-1.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: -24px;
+    left: -44px;
 }
