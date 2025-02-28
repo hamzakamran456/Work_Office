@@ -296,7 +296,7 @@
     border-width: 6px 6px 0 6px;
 }
 
-.submit-btn {
+button.submit-btn{
     padding: 14px 26px;
     color: #fff;
     background: #161C2D;
